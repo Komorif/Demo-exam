@@ -1,0 +1,15 @@
+E:\C#files\Demo-exam\3 вариант\2 модуль\Фамилия\bin\Debug\Фамилия.exe.config
+E:\C#files\Demo-exam\3 вариант\2 модуль\Фамилия\bin\Debug\Фамилия.exe
+E:\C#files\Demo-exam\3 вариант\2 модуль\Фамилия\bin\Debug\Фамилия.pdb
+E:\C#files\Demo-exam\3 вариант\2 модуль\Фамилия\obj\Debug\Фамилия.csproj.AssemblyReference.cache
+E:\C#files\Demo-exam\3 вариант\2 модуль\Фамилия\obj\Debug\MainWindow.g.cs
+E:\C#files\Demo-exam\3 вариант\2 модуль\Фамилия\obj\Debug\App.g.cs
+E:\C#files\Demo-exam\3 вариант\2 модуль\Фамилия\obj\Debug\Фамилия_MarkupCompile.cache
+E:\C#files\Demo-exam\3 вариант\2 модуль\Фамилия\obj\Debug\Фамилия_MarkupCompile.lref
+E:\C#files\Demo-exam\3 вариант\2 модуль\Фамилия\obj\Debug\MainWindow.baml
+E:\C#files\Demo-exam\3 вариант\2 модуль\Фамилия\obj\Debug\Фамилия.g.resources
+E:\C#files\Demo-exam\3 вариант\2 модуль\Фамилия\obj\Debug\Фамилия.Properties.Resources.resources
+E:\C#files\Demo-exam\3 вариант\2 модуль\Фамилия\obj\Debug\Фамилия.csproj.GenerateResource.cache
+E:\C#files\Demo-exam\3 вариант\2 модуль\Фамилия\obj\Debug\Фамилия.csproj.CoreCompileInputs.cache
+E:\C#files\Demo-exam\3 вариант\2 модуль\Фамилия\obj\Debug\Фамилия.exe
+E:\C#files\Demo-exam\3 вариант\2 модуль\Фамилия\obj\Debug\Фамилия.pdb
