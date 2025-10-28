@@ -1,0 +1,73 @@
+C:\Users\Vadim\source\repos\Решетников\Решетников\bin\Debug\Решетников.exe.config
+C:\Users\Vadim\source\repos\Решетников\Решетников\bin\Debug\Решетников.exe
+C:\Users\Vadim\source\repos\Решетников\Решетников\bin\Debug\Решетников.pdb
+C:\Users\Vadim\source\repos\Решетников\Решетников\bin\Debug\EntityFramework.dll
+C:\Users\Vadim\source\repos\Решетников\Решетников\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Vadim\source\repos\Решетников\Решетников\bin\Debug\EntityFramework.xml
+C:\Users\Vadim\source\repos\Решетников\Решетников\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Vadim\source\repos\Решетников\Решетников\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\Vadim\source\repos\Решетников\Решетников\obj\Debug\Решетников.csproj.AssemblyReference.cache
+C:\Users\Vadim\source\repos\Решетников\Решетников\obj\Debug\MainWindow.g.cs
+C:\Users\Vadim\source\repos\Решетников\Решетников\obj\Debug\App.g.cs
+C:\Users\Vadim\source\repos\Решетников\Решетников\obj\Debug\Решетников_Content.g.cs
+C:\Users\Vadim\source\repos\Решетников\Решетников\obj\Debug\Решетников_MarkupCompile.cache
+C:\Users\Vadim\source\repos\Решетников\Решетников\obj\Debug\MainWindow.baml
+C:\Users\Vadim\source\repos\Решетников\Решетников\obj\Debug\Решетников.g.resources
+C:\Users\Vadim\source\repos\Решетников\Решетников\obj\Debug\Решетников.Properties.Resources.resources
+C:\Users\Vadim\source\repos\Решетников\Решетников\obj\Debug\Решетников.csproj.GenerateResource.cache
+C:\Users\Vadim\source\repos\Решетников\Решетников\obj\Debug\Решетников.csproj.CoreCompileInputs.cache
+C:\Users\Vadim\source\repos\Решетников\Решетников\obj\Debug\Решетников.csproj.Up2Date
+C:\Users\Vadim\source\repos\Решетников\Решетников\obj\Debug\Решетников.exe
+C:\Users\Vadim\source\repos\Решетников\Решетников\obj\Debug\Решетников.pdb
+C:\Users\Vadim\source\repos\Решетников\Решетников\obj\Debug\Page\AutorizationPage.baml
+C:\Users\Vadim\source\repos\Решетников\Решетников\obj\Debug\Page\AutorizationPage.g.cs
+C:\Users\Vadim\source\repos\Решетников\Решетников\obj\Debug\Page\MainPage.baml
+C:\Users\Vadim\source\repos\Решетников\Решетников\obj\Debug\Page\MainPage.g.cs
+C:\Users\Vadim\source\repos\Решетников\Решетников\obj\Debug\Page\ProductsPage.baml
+C:\Users\Vadim\source\repos\Решетников\Решетников\obj\Debug\Page\ProductsPage.g.cs
+C:\Users\Vadim\source\repos\Решетников\Решетников\obj\Debug\Page\OrdersPage.baml
+C:\Users\Vadim\source\repos\Решетников\Решетников\obj\Debug\Page\OrdersPage.g.cs
+C:\Users\Vadim\source\repos\Решетников\Решетников\obj\Debug\App.baml
+C:\Users\Vadim\source\repos\Решетников\Решетников\bin\Debug\Решетников.exe.manifest
+C:\Users\Vadim\source\repos\Решетников\Решетников\bin\Debug\Решетников.application
+C:\Users\Vadim\source\repos\Решетников\Решетников\obj\Debug\Решетников.exe.manifest
+C:\Users\Vadim\source\repos\Решетников\Решетников\obj\Debug\Решетников.application
+C:\Users\Komori\Desktop\Новая папка (2)\Решетников\bin\Debug\Решетников.exe.config
+C:\Users\Komori\Desktop\Новая папка (2)\Решетников\bin\Debug\Решетников.exe.manifest
+C:\Users\Komori\Desktop\Новая папка (2)\Решетников\bin\Debug\Решетников.application
+C:\Users\Komori\Desktop\Новая папка (2)\Решетников\bin\Debug\Решетников.exe
+C:\Users\Komori\Desktop\Новая папка (2)\Решетников\bin\Debug\Решетников.pdb
+C:\Users\Komori\Desktop\Новая папка (2)\Решетников\bin\Debug\EntityFramework.dll
+C:\Users\Komori\Desktop\Новая папка (2)\Решетников\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Komori\Desktop\Новая папка (2)\Решетников\bin\Debug\EntityFramework.xml
+C:\Users\Komori\Desktop\Новая папка (2)\Решетников\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Komori\Desktop\Новая папка (2)\Решетников\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\Komori\Desktop\Новая папка (2)\Решетников\obj\Debug\Решетников.csproj.AssemblyReference.cache
+C:\Users\Komori\Desktop\Новая папка (2)\Решетников\obj\Debug\Решетников.exe.config
+C:\Users\Komori\Desktop\Новая папка (2)\Решетников\obj\Debug\MainWindow.baml
+C:\Users\Komori\Desktop\Новая папка (2)\Решетников\obj\Debug\Page\AutorizationPage.baml
+C:\Users\Komori\Desktop\Новая папка (2)\Решетников\obj\Debug\Page\MainPage.baml
+C:\Users\Komori\Desktop\Новая папка (2)\Решетников\obj\Debug\Page\OrdersPage.baml
+C:\Users\Komori\Desktop\Новая папка (2)\Решетников\obj\Debug\Page\ProductsPage.baml
+C:\Users\Komori\Desktop\Новая папка (2)\Решетников\obj\Debug\App.baml
+C:\Users\Komori\Desktop\Новая папка (2)\Решетников\obj\Debug\MainWindow.g.cs
+C:\Users\Komori\Desktop\Новая папка (2)\Решетников\obj\Debug\Page\AutorizationPage.g.cs
+C:\Users\Komori\Desktop\Новая папка (2)\Решетников\obj\Debug\Page\MainPage.g.cs
+C:\Users\Komori\Desktop\Новая папка (2)\Решетников\obj\Debug\Page\OrdersPage.g.cs
+C:\Users\Komori\Desktop\Новая папка (2)\Решетников\obj\Debug\Page\ProductsPage.g.cs
+C:\Users\Komori\Desktop\Новая папка (2)\Решетников\obj\Debug\App.g.cs
+C:\Users\Komori\Desktop\Новая папка (2)\Решетников\obj\Debug\Решетников_Content.g.cs
+C:\Users\Komori\Desktop\Новая папка (2)\Решетников\obj\Debug\Решетников_MarkupCompile.cache
+C:\Users\Komori\Desktop\Новая папка (2)\Решетников\obj\Debug\Решетников.g.resources
+C:\Users\Komori\Desktop\Новая папка (2)\Решетников\obj\Debug\Решетников.Properties.Resources.resources
+C:\Users\Komori\Desktop\Новая папка (2)\Решетников\obj\Debug\Решетников.csproj.GenerateResource.cache
+C:\Users\Komori\Desktop\Новая папка (2)\Решетников\obj\Debug\Решетников.csproj.CoreCompileInputs.cache
+C:\Users\Komori\Desktop\Новая папка (2)\Решетников\obj\Debug\Решетников.exe.manifest
+C:\Users\Komori\Desktop\Новая папка (2)\Решетников\obj\Debug\Решетников.application
+C:\Users\Komori\Desktop\Новая папка (2)\Решетников\obj\Debug\Решетников.csproj.Up2Date
+C:\Users\Komori\Desktop\Новая папка (2)\Решетников\obj\Debug\Решетников.exe
+C:\Users\Komori\Desktop\Новая папка (2)\Решетников\obj\Debug\Решетников.pdb
+C:\Users\Komori\Desktop\дем экз\2 вариант\2 модуль\Решетников\obj\Debug\Решетников.csproj.AssemblyReference.cache
+C:\Users\Komori\Desktop\дем экз\2 вариант\2 модуль\Решетников\obj\Debug\Решетников.exe.config
+C:\Users\Komori\Desktop\дем экз\2 вариант\2 модуль\Решетников\obj\Debug\Решетников.exe
+C:\Users\Komori\Desktop\дем экз\2 вариант\2 модуль\Решетников\obj\Debug\Решетников.pdb
