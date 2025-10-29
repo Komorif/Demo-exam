@@ -15,7 +15,6 @@
     </Page.Resources>
 
     <Grid>
-        <!-- Кнопка "Назад" -->
         <Button x:Name="BackButton" 
                 Content="Назад"
                 Height="40"
@@ -29,8 +28,14 @@
         <ListView x:Name="ListViewItems" 
                   Margin="16,70,26,26"
                   ScrollViewer.VerticalScrollBarVisibility="Auto">
-
+            <ListView.ItemContainerStyle>
+                <Style TargetType="ListViewItem">
+                    <Setter Property="Background"
+                    Value="{Binding ., Converter={StaticResource DiscountColorConverter}}"/>
+                </Style>
+            </ListView.ItemContainerStyle>
             <ListView.ItemTemplate>
+                
                 <DataTemplate>
                     <Border BorderBrush="Gray" BorderThickness="1" Margin="5" Padding="10" Width="700">
                         <Grid>
@@ -55,8 +60,19 @@
                                 <TextBlock FontSize="15" FontFamily="Calibri">
                                     <Run Text="Цена товара изначально: " FontWeight="Bold"/>
                                     <Run Text="{Binding Price}"
-                                        Foreground="{Binding PriceColor}"
-                                        TextDecorations="{Binding PriceDecorations}"/>
+                                        Foreground="{Binding ., Converter={StaticResource PriceStyleConverter}}"
+                                        TextDecorations="{Binding ., Converter={StaticResource PriceStyleConverter}}"/>
+                                    <Run Text=" "/>
+                                    
+                                    <Run>
+                                        <Run.Text>
+                                            <MultiBinding Converter="{StaticResource DiscountCalculationConverter}">
+                                                <Binding Path="Price"/>
+                                                <Binding Path="Discount"/>
+                                            </MultiBinding>
+                                        </Run.Text>
+                                    </Run>
+                                    
                                 </TextBlock>
                             </StackPanel>
 
@@ -73,8 +89,8 @@
                                         <Run>
                                             <Run.Text>
                                                 <MultiBinding Converter="{StaticResource DiscountCalculationConverter}">
-                                                <Binding Path="Price"/>
-                                                <Binding Path="Discount"/>
+                                                    <Binding Path="Price"/>
+                                                    <Binding Path="Discount"/>
                                                 </MultiBinding>
                                             </Run.Text>
                                         </Run>
