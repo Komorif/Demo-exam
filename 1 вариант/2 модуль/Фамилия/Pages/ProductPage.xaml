@@ -1,0 +1,92 @@
+﻿<Page x:Class="Фамилия.Pages.ProductPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Фамилия.Pages" xmlns:local1="clr-namespace:Фамилия.Converters"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="ProductPage">
+
+    <Page.Resources>
+        <local1:DiscountCalculationConverter x:Key="DiscountCalculationConverter"/>
+        <local1:DiscountColorConverter x:Key="DiscountColorConverter"/>
+        <local1:PriceStyleConverter x:Key="PriceStyleConverter"/>
+    </Page.Resources>
+
+    <Grid>
+        <!-- Кнопка "Назад" -->
+        <Button x:Name="BackButton" 
+                Content="Назад"
+                Height="40"
+                Width="70"
+                Margin="16,10,0,0"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Top"
+                Click="BackButton_Click"
+                FontFamily="Calibri"/>
+
+        <ListView x:Name="ListViewItems" 
+                  Margin="16,70,26,26"
+                  ScrollViewer.VerticalScrollBarVisibility="Auto">
+
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <Border BorderBrush="Gray" BorderThickness="1" Margin="5" Padding="10" Width="700">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                            </Grid.ColumnDefinitions>
+
+                            
+                            <StackPanel Grid.Column="0">
+
+                                <TextBlock FontSize="15" FontFamily="Calibri">
+                                    <Run Text="Название товара: " FontWeight="Bold"/>
+                                    <Run Text="{Binding Name}" />
+                                </TextBlock>
+
+                                <TextBlock FontSize="15" FontFamily="Calibri">
+                                    <Run Text="Категория товара: " FontWeight="Bold"/>
+                                    <Run Text="{Binding Categories.Name}" />
+                                </TextBlock>
+
+                                <TextBlock FontSize="15" FontFamily="Calibri">
+                                    <Run Text="Цена товара изначально: " FontWeight="Bold"/>
+                                    <Run Text="{Binding Price}"
+                                        Foreground="{Binding PriceColor}"
+                                        TextDecorations="{Binding PriceDecorations}"/>
+                                </TextBlock>
+                            </StackPanel>
+
+
+                            <Border Grid.Column="1"  BorderBrush="Gray" BorderThickness="1" Padding="10" Margin="60,0,0,0">
+                                <StackPanel>
+                                    <TextBlock FontSize="15" FontFamily="Calibri">
+                                        <Run Text="Действующая скидка: " FontWeight="Bold"/>
+                                        <Run Text="{Binding Discount}" />
+                                    </TextBlock>
+
+                                    <TextBlock>
+                                        <Run FontSize="15" FontFamily="Calibri" Text="Цена со скидкой: " FontWeight="Bold"/>
+                                        <Run>
+                                            <Run.Text>
+                                                <MultiBinding Converter="{StaticResource DiscountCalculationConverter}">
+                                                <Binding Path="Price"/>
+                                                <Binding Path="Discount"/>
+                                                </MultiBinding>
+                                            </Run.Text>
+                                        </Run>
+                                    </TextBlock>
+
+                                </StackPanel>
+                            </Border>
+
+                        </Grid>
+                    </Border>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </Grid>
+</Page>

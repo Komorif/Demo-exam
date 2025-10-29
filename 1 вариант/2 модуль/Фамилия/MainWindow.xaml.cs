@@ -12,6 +12,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Фамилия.Helper;
+using Фамилия.Pages;
 
 namespace Фамилия
 {
@@ -23,6 +25,9 @@ namespace Фамилия
         public MainWindow()
         {
             InitializeComponent();
+            Helpers.label = LabelNamePage;
+            Helpers.frame = MainFrame;
+            MainFrame.Navigate(new Pages.AuthorizationPage());
         }
     }
 }

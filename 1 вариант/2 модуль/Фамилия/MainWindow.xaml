@@ -5,8 +5,28 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Фамилия"
         mc:Ignorable="d"
+        Icon="/images/Logo.ico"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="3*"/>
+        </Grid.RowDefinitions>
         
+        <Frame x:Name="MainFrame" Grid.Row="1" NavigationUIVisibility="Hidden"/>
+        
+        <Border Grid.Row="0"
+            Background="#EB606E"
+            Padding="10"
+            VerticalAlignment="Stretch">
+            <StackPanel>
+                <Label x:Name="LabelNamePage"
+                   FontSize="17"
+                   Foreground="White"
+                   Content="(не выбрана)"
+                   FontFamily="Calibri"
+                   HorizontalAlignment="Right"/>
+            </StackPanel>
+        </Border>
     </Grid>
 </Window>

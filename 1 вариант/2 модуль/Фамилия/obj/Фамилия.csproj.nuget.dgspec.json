@@ -1,0 +1,74 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\C#files\\Demo-exam\\1 вариант\\2 модуль\\Фамилия\\Фамилия.csproj": {}
+  },
+  "projects": {
+    "E:\\C#files\\Demo-exam\\1 вариант\\2 модуль\\Фамилия\\Фамилия.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\C#files\\Demo-exam\\1 вариант\\2 модуль\\Фамилия\\Фамилия.csproj",
+        "projectName": "Фамилия",
+        "projectPath": "E:\\C#files\\Demo-exam\\1 вариант\\2 модуль\\Фамилия\\Фамилия.csproj",
+        "packagesPath": "C:\\Users\\Komori\\.nuget\\packages\\",
+        "outputPath": "E:\\C#files\\Demo-exam\\1 вариант\\2 модуль\\Фамилия\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "UsingMicrosoftNETSdk": false,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Komori\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net481"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net481": {
+            "projectReferences": {}
+          }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net481": {
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.2.0, )"
+            },
+            "EntityFramework.ru": {
+              "target": "Package",
+              "version": "[6.2.0, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-arm64": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
