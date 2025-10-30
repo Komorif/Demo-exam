@@ -36,7 +36,7 @@ namespace Фамилия.Converters
                 if (discount == 0)
                     return null;
 
-                return price.ToString("F2");
+                return finalPrice.ToString("F2");
             }
 
             return finalPrice.ToString("F2");

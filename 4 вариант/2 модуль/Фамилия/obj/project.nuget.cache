@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "TArO1PLgkqo=",
+  "success": true,
+  "projectFilePath": "E:\\C#files\\Demo-exam\\4 вариант\\2 модуль\\Фамилия\\Фамилия.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Komori\\.nuget\\packages\\entityframework\\6.2.0\\entityframework.6.2.0.nupkg.sha512",
+    "C:\\Users\\Komori\\.nuget\\packages\\entityframework.ru\\6.2.0\\entityframework.ru.6.2.0.nupkg.sha512"
+  ],
+  "logs": []
+}

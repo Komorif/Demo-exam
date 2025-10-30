@@ -1,0 +1,66 @@
+﻿<Page x:Class="Фамилия.Pages.OrderPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Фамилия.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="OrderPage">
+
+    <Grid>
+        <Border>
+            <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Height="430" Width="780">
+                <Button x:Name="BackButton" 
+                    Content="Назад"
+                    Height="40"
+                    Width="70"
+                    Margin="16,70,0,0"
+                    HorizontalAlignment="Left"
+                    Click="BackButton_Click"
+                    Background="#4F4843"
+                    Foreground="White"
+                    FontFamily="Arial"/>
+            </StackPanel>
+        </Border>
+
+        <ListView x:Name="ListViewItems" Margin="19,55,19,19">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <Border BorderBrush="Gray" BorderThickness="1" Margin="5" Padding="10" Width="700">
+                        <Grid>
+
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                            </Grid.ColumnDefinitions>
+
+                            <StackPanel Grid.Column="0">
+
+                                <TextBlock FontSize="15" FontFamily="Arial">
+                                    <Run Text="Название товара: " />
+                                    <Run Text="{Binding Goods.Name}" />
+                                </TextBlock>
+
+                                <TextBlock FontSize="15" FontFamily="Arial">
+                                    <Run Text="ФИО: " />
+                                    <Run Text="{Binding Users.LastName}" />
+                                    <Run Text="{Binding Users.Name}" />
+                                    <Run Text="{Binding Users.MiddleName}" />
+                                </TextBlock>
+
+                                <TextBlock FontSize="15" FontFamily="Arial">
+                                    <Run Text="Количество: " />
+                                    <Run Text="{Binding Count}" />
+                                </TextBlock>
+
+                            </StackPanel>
+
+                        </Grid>
+                    </Border>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+    </Grid>
+</Page>
