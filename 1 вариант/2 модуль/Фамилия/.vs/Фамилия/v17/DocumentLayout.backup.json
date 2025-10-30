@@ -5,6 +5,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{E62A49CF-8F50-4FD8-8AD1-82B47EE4D9A7}|\u0424\u0430\u043C\u0438\u043B\u0438\u044F.csproj|e:\\c#files\\demo-exam\\1 \u0432\u0430\u0440\u0438\u0430\u043D\u0442\\2 \u043C\u043E\u0434\u0443\u043B\u044C\\\u0444\u0430\u043C\u0438\u043B\u0438\u044F\\pages\\productpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{E62A49CF-8F50-4FD8-8AD1-82B47EE4D9A7}|\u0424\u0430\u043C\u0438\u043B\u0438\u044F.csproj|solutionrelative:pages\\productpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E62A49CF-8F50-4FD8-8AD1-82B47EE4D9A7}|\u0424\u0430\u043C\u0438\u043B\u0438\u044F.csproj|e:\\c#files\\demo-exam\\1 \u0432\u0430\u0440\u0438\u0430\u043D\u0442\\2 \u043C\u043E\u0434\u0443\u043B\u044C\\\u0444\u0430\u043C\u0438\u043B\u0438\u044F\\pages\\productpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E62A49CF-8F50-4FD8-8AD1-82B47EE4D9A7}|\u0424\u0430\u043C\u0438\u043B\u0438\u044F.csproj|solutionrelative:pages\\productpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E62A49CF-8F50-4FD8-8AD1-82B47EE4D9A7}|\u0424\u0430\u043C\u0438\u043B\u0438\u044F.csproj|e:\\c#files\\demo-exam\\1 \u0432\u0430\u0440\u0438\u0430\u043D\u0442\\2 \u043C\u043E\u0434\u0443\u043B\u044C\\\u0444\u0430\u043C\u0438\u043B\u0438\u044F\\pages\\orderpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E62A49CF-8F50-4FD8-8AD1-82B47EE4D9A7}|\u0424\u0430\u043C\u0438\u043B\u0438\u044F.csproj|solutionrelative:pages\\orderpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -25,8 +33,32 @@
               "ToolTip": "E:\\C#files\\Demo-exam\\1 \u0432\u0430\u0440\u0438\u0430\u043D\u0442\\2 \u043C\u043E\u0434\u0443\u043B\u044C\\\u0424\u0430\u043C\u0438\u043B\u0438\u044F\\Pages\\ProductPage.xaml",
               "RelativeToolTip": "Pages\\ProductPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-29T18:50:32.003Z",
-              "IsPinned": true,
+              "WhenOpened": "2025-10-30T15:56:38.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductPage.xaml.cs",
+              "DocumentMoniker": "E:\\C#files\\Demo-exam\\1 \u0432\u0430\u0440\u0438\u0430\u043D\u0442\\2 \u043C\u043E\u0434\u0443\u043B\u044C\\\u0424\u0430\u043C\u0438\u043B\u0438\u044F\\Pages\\ProductPage.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\ProductPage.xaml.cs",
+              "ToolTip": "E:\\C#files\\Demo-exam\\1 \u0432\u0430\u0440\u0438\u0430\u043D\u0442\\2 \u043C\u043E\u0434\u0443\u043B\u044C\\\u0424\u0430\u043C\u0438\u043B\u0438\u044F\\Pages\\ProductPage.xaml.cs",
+              "RelativeToolTip": "Pages\\ProductPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T15:56:36.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrderPage.xaml",
+              "DocumentMoniker": "E:\\C#files\\Demo-exam\\1 \u0432\u0430\u0440\u0438\u0430\u043D\u0442\\2 \u043C\u043E\u0434\u0443\u043B\u044C\\\u0424\u0430\u043C\u0438\u043B\u0438\u044F\\Pages\\OrderPage.xaml",
+              "RelativeDocumentMoniker": "Pages\\OrderPage.xaml",
+              "ToolTip": "E:\\C#files\\Demo-exam\\1 \u0432\u0430\u0440\u0438\u0430\u043D\u0442\\2 \u043C\u043E\u0434\u0443\u043B\u044C\\\u0424\u0430\u043C\u0438\u043B\u0438\u044F\\Pages\\OrderPage.xaml",
+              "RelativeToolTip": "Pages\\OrderPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-30T15:37:11.541Z",
               "EditorCaption": ""
             }
           ]

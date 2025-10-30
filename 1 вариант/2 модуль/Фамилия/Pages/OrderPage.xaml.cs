@@ -24,6 +24,8 @@ namespace Фамилия.Pages
         public OrderPage()
         {
             InitializeComponent();
+            ListViewItems.ItemsSource = Helpers.DB.Orders.ToList();
+            Helpers.label.Content = "Страница заказов";
         }
 
         private void BackButton_Click(object sender, RoutedEventArgs e)

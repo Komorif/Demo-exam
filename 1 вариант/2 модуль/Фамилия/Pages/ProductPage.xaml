@@ -15,15 +15,22 @@
     </Page.Resources>
 
     <Grid>
-        <Button x:Name="BackButton" 
-                Content="Назад"
-                Height="40"
-                Width="70"
-                Margin="16,10,0,0"
-                HorizontalAlignment="Left"
-                VerticalAlignment="Top"
-                Click="BackButton_Click"
-                FontFamily="Calibri"/>
+        <Border>
+            <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Height="430" Width="780">
+                <Button x:Name="BackButton" 
+            Content="Назад"
+            Height="40"
+            Width="70"
+            Margin="16,70,0,0"
+            HorizontalAlignment="Left"
+            Click="BackButton_Click"
+            Background="#FC220A"
+            Foreground="White"
+            FontFamily="Calibri"/>
+            </StackPanel>
+        </Border>
+
+        
 
         <ListView x:Name="ListViewItems" 
                   Margin="16,70,26,26"

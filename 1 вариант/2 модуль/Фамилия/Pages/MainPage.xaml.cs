@@ -51,7 +51,6 @@ namespace Фамилия.Pages
         // Кнопка (Выход из аккаунта)
         private void LogoutButton_Click(object sender, RoutedEventArgs e)
         {
-            Helpers.label.Content = "Страница авторизации";
             Helpers.frame.Navigate(new AuthorizationPage());
             Helpers.CurrentUser = null;
         }
@@ -59,21 +58,17 @@ namespace Фамилия.Pages
         // Кнопка (Авторизироватсья)
         private void AuthButton_Click(object sender, RoutedEventArgs e)
         {
-            Helpers.label.Content = "Страница авторизации";
             Helpers.frame.Navigate(new AuthorizationPage());
             Helpers.CurrentUser = null;
         }
 
-
         private void ProductsButton_Click(object sender, RoutedEventArgs e)
         {
-            Helpers.label.Content = "Страница продуктов";
             Helpers.frame.Navigate(new ProductPage());
         }
 
         private void OrdersButton_Click(object sender, RoutedEventArgs e)
         {
-            Helpers.label.Content = "Страница заказов";
             Helpers.frame.Navigate(new OrderPage());
         }
     }

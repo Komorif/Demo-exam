@@ -24,6 +24,7 @@ namespace Фамилия.Pages
         public ProductPage()
         {
             InitializeComponent();
+            Helpers.label.Content = "Страница товаров";
             ListViewItems.ItemsSource = Helpers.DB.Goods.ToList();
         }
 

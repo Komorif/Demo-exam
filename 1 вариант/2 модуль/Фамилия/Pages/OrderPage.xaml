@@ -18,8 +18,49 @@
                     Margin="16,70,0,0"
                     HorizontalAlignment="Left"
                     Click="BackButton_Click"
+                    Background="#FC220A"
+                    Foreground="White"
                     FontFamily="Calibri"/>
             </StackPanel>
         </Border>
+
+        <ListView x:Name="ListViewItems" Margin="19,55,19,19">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <Border BorderBrush="Gray" BorderThickness="1" Margin="5" Padding="10" Width="700">
+                        <Grid>
+
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                            </Grid.ColumnDefinitions>
+
+                            <StackPanel Grid.Column="0">
+
+                                <TextBlock FontSize="15" FontFamily="Calibri">
+                                    <Run Text="Название товара: " />
+                                    <Run Text="{Binding Goods.Name}" />
+                                </TextBlock>
+                            
+                                <TextBlock FontSize="15" FontFamily="Calibri">
+                                    <Run Text="ФИО: " />
+                                    <Run Text="{Binding Users.LastName}" />
+                                    <Run Text="{Binding Users.Name}" />
+                                    <Run Text="{Binding Users.MiddleName}" />
+                                </TextBlock>
+
+                                <TextBlock FontSize="15" FontFamily="Calibri">
+                                    <Run Text="Количество: " />
+                                    <Run Text="{Binding Count}" />
+                                </TextBlock>
+
+                            </StackPanel>
+
+                        </Grid>
+                    </Border>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
     </Grid>
 </Page>

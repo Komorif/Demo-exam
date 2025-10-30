@@ -15,12 +15,18 @@
             <TextBox x:Name="LoginTextBox" Height="30" Margin="0,0,0,15"/>
             <TextBlock Text="Пароль:" Margin="0,0,0,5" FontFamily="Calibri"/>
             <PasswordBox x:Name="PasswordBox" Height="30" Margin="0,0,0,20"/>
-            <Button x:Name="LoginButton" Content="Войти" Height="35" Margin="0,0,0,10" FontFamily="Calibri" Click="LoginButton_Click_1"/>
+            <Button x:Name="LoginButton" Content="Войти" Height="35"
+                    Margin="0,0,0,10" FontFamily="Calibri"
+                    Background="#FC220A"
+                    Foreground="White"
+                    Click="LoginButton_Click_1"/>
 
             <Button x:Name="GuestButton" Content="Войти как гость" 
                     Height="35" Width="300"
                     Margin="0,0,0,10"
                     FontFamily="Calibri"
+                    Background="#FC220A"
+                    Foreground="White"
                     Click="GuestButton_Click"/>
         </StackPanel>
     </Grid>

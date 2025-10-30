@@ -22,6 +22,8 @@
                         HorizontalAlignment="Left"
                         Click="LogoutButton_Click"
                         Visibility="Collapsed"
+                        Background="#FC220A"
+                        Foreground="White"
                         FontFamily="Calibri"/>
 
                     <Button x:Name="AuthButton" 
@@ -32,19 +34,24 @@
                         HorizontalAlignment="Right"
                         Click="AuthButton_Click"
                         Visibility="Collapsed"
+                        Background="#FC220A"
+                        Foreground="White"
                         FontFamily="Calibri"/>
 
                 </StackPanel>
 
 
-                <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Width="400" Margin="0,100,0,0">
+                <StackPanel HorizontalAlignment="Center" Width="400" Margin="0,30,0,0" Height="191">
+                    <Image Source="/images/Logo.png" Width="50" Height="50"/>
 
                     <Button x:Name="ProductsButton" 
-                        Content="Просмотр продуктов"
+                        Content="Просмотр товаров"
                         Height="40"
                         Width="120"
                         Click="ProductsButton_Click"
                         Margin="0,10,0,12"
+                        Background="#FC220A"
+                        Foreground="White"
                         FontFamily="Calibri"/>
 
                     <Button x:Name="OrdersButton" 
@@ -54,6 +61,8 @@
                         Click="OrdersButton_Click"
                         Margin="0,0,0,0"
                         Visibility="Collapsed"
+                        Background="#FC220A"
+                        Foreground="White"
                         FontFamily="Calibri"/>
                 </StackPanel>
 
