@@ -20,6 +20,25 @@ namespace Фамилия.Converters
             double discount = System.Convert.ToDouble(values[1]);
 
             double finalPrice = price - (price * discount / 100);
+
+            // если цена "со скидкой"
+            if (parameter?.ToString() == "Discounted")
+            {
+                if (discount == 0)
+                    return price.ToString("F2");
+
+                return finalPrice.ToString("F2");
+            }
+
+            // если цена "цена изначально"
+            if (parameter?.ToString() == "Initially")
+            {
+                if (discount == 0)
+                    return null;
+
+                return price.ToString("F2");
+            }
+
             return finalPrice.ToString("F2");
         }
 
