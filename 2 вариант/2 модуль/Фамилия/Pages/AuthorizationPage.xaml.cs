@@ -45,7 +45,7 @@ namespace Фамилия.Pages
                 MessageBox.Show("Пользователь не найден");
                 return;
             }
-            if (LoginTextBox.Text != client.Password.Replace(" ", ""))
+            if (TextBoxPassword.Password != client.Password.Replace(" ", ""))
             {
                 MessageBox.Show("Неверный логин или пароль");
                 return;
